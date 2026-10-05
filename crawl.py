@@ -7,4 +7,4 @@ def normalize_url(url: str) -> str:
         if i == "":
             continue
         normalized_url += "/" + i
-    return normalized_url
+    return "https://" + normalized_url
